@@ -7,5 +7,7 @@ class student{
     int age;
     bool gender;
 
+    void printInfo(){}
+
 
 };
