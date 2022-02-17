@@ -11,3 +11,7 @@ class student{
 
 
 };
+
+int main(){
+    return 0;
+}
