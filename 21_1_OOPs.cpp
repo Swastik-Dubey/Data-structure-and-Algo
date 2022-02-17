@@ -13,5 +13,6 @@ class student{
 };
 
 int main(){
+    student arr[3];
     return 0;
 }
