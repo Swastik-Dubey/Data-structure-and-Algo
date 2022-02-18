@@ -49,6 +49,12 @@ int main(){
     student c;
     student d=a;
 
+    if(c==a){
+        cout<<"Same"<<endl;
+            }
+    else{
+        cout<<" Not Same"<<endl;
+    }        
 
     return 0;
 }
