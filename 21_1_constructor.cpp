@@ -56,7 +56,7 @@ int main(){
     student c;
     student d=a;
 
-    if(c==a){
+    if(d==a){
         cout<<"Same"<<endl;
             }
     else{
