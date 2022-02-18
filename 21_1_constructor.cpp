@@ -34,8 +34,8 @@ int main(){
     student b("Ram",2,18);
     a.printInfo();
     b.printInfo();
-    student c();
-    c.printInfo();
+    student c;
+
 
     return 0;
 }
