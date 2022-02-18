@@ -37,7 +37,7 @@ class student{
         cout<<age<<endl;
         cout<<"Gender = ";
         cout<<gender<<endl;
-    }//parameterized constructor
+    }
 
 };
 
