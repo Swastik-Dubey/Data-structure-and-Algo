@@ -17,7 +17,7 @@ class student{
         age=a;
         gender=g;
 
-    }//constructor
+    }// Parameterised constructor
 
     void printInfo(){
         cout<<"Name = ";
