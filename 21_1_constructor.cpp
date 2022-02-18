@@ -50,9 +50,9 @@ class student{
 
 int main(){
     student a("Urvi",20,1);
-    student b("Ram",2,18);
+   
     a.printInfo();
-    b.printInfo();
+ 
     student c;
     student d=a;
 
