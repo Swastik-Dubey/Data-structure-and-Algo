@@ -19,6 +19,14 @@ class student{
 
     }// Parameterised constructor
 
+    student (student &a){
+        cout<<"Copy constructor"<<endl;
+        name=a.name;
+        age=a.age;
+        gender=a.gender;
+
+    }
+
     void printInfo(){
         cout<<"Name = ";
         cout<<name<<endl;
@@ -36,6 +44,7 @@ int main(){
     a.printInfo();
     b.printInfo();
     student c;
+    student d=a;
 
 
     return 0;
