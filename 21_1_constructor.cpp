@@ -7,6 +7,10 @@ class student{
     int age;
     bool gender;
 
+    student(){
+        cout<<"Default constructor"<<endl;
+    }//Default constructor
+
     student(string s, int a,int g){
         name =s;
         age=a;
@@ -21,7 +25,7 @@ class student{
         cout<<age<<endl;
         cout<<"Gender = ";
         cout<<gender<<endl;
-    }
+    }//parameterized constructor
 
 };
 
@@ -30,6 +34,8 @@ int main(){
     student b("Ram",2,18);
     a.printInfo();
     b.printInfo();
+    student c();
+    c.printInfo();
 
     return 0;
 }
