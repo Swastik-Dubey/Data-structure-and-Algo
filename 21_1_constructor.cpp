@@ -12,6 +12,7 @@ class student{
     }//Default constructor
 
     student(string s, int a,int g){
+        cout<<"Parameterised constructor"<<endl;
         name =s;
         age=a;
         gender=g;
