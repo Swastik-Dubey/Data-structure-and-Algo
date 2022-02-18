@@ -27,6 +27,9 @@ class student{
 
     }
 
+    ~student(){
+        cout<<"Destructor called"<<endl;
+    }
     void printInfo(){
         cout<<"Name = ";
         cout<<name<<endl;
