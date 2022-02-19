@@ -1,26 +1,27 @@
 #include<iostream>
 using namespace std;
-int main(){
-    int a=rand();
-    cout<<a;
-    int b;
-    cin >> b;
 
-    while(b>0){
-        if(b==rand()){
-            cout<<"match";
-
-        }
-        else if(b<=rand()){
-            cout<<"less";
-        }
-        else if(b>=rand()){
-            cout<<"greater";
-        }
-
-        cin >>b;
+class emp {
+    int a;
+    public:
+    char b;
+    int c=a;
+    int d;
+    int input(int a, int d){
+        cout<<a+d;
 
     }
+
+};
+int main(){
+    emp e1;
+    cin>>e1.b;
+    cin>>e1.c;
+    cin>>e1.d;
+    e1.input(e1.c, e1.d);
+  
+
+    
  
  
      return 0;
