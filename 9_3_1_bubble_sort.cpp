@@ -9,7 +9,7 @@ int main(){
         cin>>arr[i];
     }
 
-    int counter=0;
+    int counter=1;
     
     while(counter<n){
         for(int i=0;i<n-counter;i++){
